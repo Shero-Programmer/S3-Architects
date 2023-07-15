@@ -9,5 +9,80 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
+.btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    border: 0;
+    margin-top: 20px;
+
+}
+
+/* Header related styles */
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 30px 230px;
+}
 
 /* Navbar related styles */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-highlight{
+    color: #FF900E;;
+}
+.nav-title{
+    color: #131313;
+    font-family: Work Sans;
+    font-size: 2.9rem;
+    font-weight: 700;
+   
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+nav a{
+    margin-right: 35px;
+    text-decoration: none;
+    color: #424242;
+    font-size: 1.2rem;
+    font-weight: 600;
+ 
+}
+
+
+/* Banner section related styles */
+
+.banner-content{
+    max-width: 860px;
+    padding-top: 5rem;
+    margin: auto;
+    text-align: center;
+}
+
+.banner-title{
+    color: #131313;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description{
+    color: var(--dark-03, #727272);
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+}
