@@ -210,7 +210,8 @@ main{
         padding: 20px;
     }
     .navbar,
-    .teams-container{
+    .teams-container,
+    .facts-card-container{
         flex-direction: column;
     }
     nav ul{
@@ -231,6 +232,19 @@ main{
     padding-right: 30px;
  
 }
+.fact-text{
+    margin-left: 30px 
+}
+
+.facts-card{
+    margin-bottom: 20px;
+    
+}
+
+.fact-description{
+    max-width: 320px;
+}
+
 }
 
 /* !Media queries for medium devices */
@@ -242,7 +256,8 @@ main{
     }
     
     .navbar,
-    .teams-container{
+    .teams-container,
+    .facts-card-container{
         flex-direction: column;
     }
 
@@ -255,4 +270,16 @@ main{
     .teams-content{
         margin-top: 30px;
     }
+
+    .fact-text{
+    margin-left: 60px 
+}
+.facts-card{
+    margin-right: 5px;
+    
+}
+
+.facts-card{
+    margin-bottom: 20px;
+}
 }
